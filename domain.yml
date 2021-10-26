@@ -1,0 +1,101 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - chu_bot
+  - b_0
+  - b_1
+  - b_2
+  - b_3
+  - b_4
+  - b_5
+  - b_6
+  - b_7
+  - b_8
+  - b_9
+  - b_10
+  - b_11
+  - b_12
+  - b_13
+  - b_14
+  - b_15
+  - b_16
+  - b_17
+
+responses:
+  utter_0:
+  - text: "Trong các giao dịch nói chung, sau khi giao dịch xong sinh viên nên chụp lại màn hình để làm minh chứng khi cần thiết. \nKhông cần thiết phải gửi lại ảnh chụp, nếu không có yêu cầu thêm."
+  utter_1:
+  - text: "SV đóng tiền theo hướng dẫn: 
+  '+ Đối với sinh viên làm thủ tục Nhập học, Nhà trường sẽ có Thông báo riêng, hướng dẫn các hình thức đóng tiền;
+  + Đối với sinh viên đã vào học, được cấp mã sinh viên và tài khoản ngân hàng, sinh viên vào địa chỉ: utc2.edu.vn -  Dịch vụ công  -  Đóng học phí; dùng tài khoản được cấp để đóng tiền nội trú."
+  utter_2:
+  - text: "Sẽ có tin nhắn gửi về email cho sinh viên biết, email này do Trường cấp."
+  utter_3:
+  - text: "Sinh viên vào địa chỉ: utc2.edu.vn -  Dịch vụ công  -  Tra cứu phòng ở ký túc xá"
+  utter_4:
+  - text: "Khi có đợt đăng ký nội trú, ngoài đợt chính thức, BQL KTX sẽ có Thông báo trên trang web của Trường (utc2.edu.vn) , mục Thông tin KTX."
+  utter_5:
+  - text: "Nếu là sinh viên đang làm thủ tục nhập học thì có thể đóng chung;  sinh viên đang học thì đóng riêng,  vào địa chỉ: utc2.edu.vn -  Dịch vụ công  -  Đóng học phí"
+  utter_6:
+  - text: "Trong KTX có phòng giặt, sấy quần áo nhưng thu có thu tiền"
+  utter_7:
+  - text: "Trong điều kiện bình thường: KTX đóng cửa từ 23g đến 5g30 hôm sau."
+  utter_8:
+  - text: "BQL cho sinh viên đăng ký ở nội trú từng năm học"
+  utter_9:
+  - text: "Nếu có lý do chính đáng, sinh viên liên hệ BQL để được xem xét chuyển phòng."
+  utter_10:
+  - text: "Phòng chất lượng cao được trang bị thêm các trang thiết bị phục vụ cho nhu cầu sinh hoạt, học tập của sinh viên (bàn, ghế, kệ dép,…), có một số phòng cho sinh viên nấu ăn (D62)."
+  utter_11:
+  - text: "Hiện tại KTX chưa giải quyết những trường hợp như thế này, nghĩa là phòng 8 SV vẫn ở 8 SV;"
+  utter_12:
+  - text: "Vui lòng xem Thông báo trên trang web của Trường (utc2.edu.vn), mục Thông tin KTX; hoặc gọi điện đến BQL để hỏi - theo số: (028)37309099"
+  utter_13:
+  - text: "Năm học 2021-2022: KTX có những loại phòng: 
+  + Khu nhà cấp 4: (D30, D31, D61- 6SV/ phòng): 110.000 đồng/tháng/SV;
+  + Khu nhà cấp 4: (D60,D70, D72 - 6SV/phòng): 150.000 đồng/tháng/SV;
+  + D70 - CLC, 6SV/ phòng: 250.000 đồng/tháng/SV;
+  + Nhà 7 tầng, 8 SV/phòng: 230.000 đồng/tháng/SV;
+  + Nhà 7 tầng- CLC, 6SV/ phòng: 4000.000 đồng/tháng/SV;
+  + D62 - CLC: 2.400.000 đồng/phòng (ở tối đa 03 SV);"
+  utter_14:
+  - text: "KTX có căn tin nha bạn."
+  utter_15:
+  - text: "KTX có phòng gym, sân bóng đá cỏ nhân tạo (2 nội dung có thu tiền), bên cạnh đó trong KTX còn có sân bóng đá, bóng chuyền, bóng rổ, dụng cụ tập luyện thể thao ngoài trời,… để SV tự rèn luyện sức khỏe mỗi ngày."
+  utter_16:
+  - text: "Để phòng chống cháy nổ, hầu hết các phòng ở không được nấu ăn, trừ nhà D62-CLC sinh viên được nấu ăn;"
+  utter_17:
+  - text: "SV chỉ được tiếp khách trong phòng khi có sự cho phép của BQL KTX"
+
+  utter_chu:
+  - text: "Anh ấy là Nguyễn Đình Bình!"
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
